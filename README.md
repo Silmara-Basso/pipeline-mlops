@@ -6,6 +6,8 @@ Vamos prever se um cliente vai ou não comprar o produto.
 
 Cada parte do projeto será representada por um módulo Python e, por fim, um script principal (random_forest.py) irá orquestrar todo o pipeline. Aqui está uma visão geral dos scripts e diretórios:
 
+````
+
 pipeline/
 │
 ├── dados/                         # Dados brutos e processados
@@ -20,6 +22,7 @@ pipeline/
 │   └── rf_deploy.py              # Deploy do modelo
 │
 └── random_forest.py                    # Script principal para execução do pipeline
+````
 
 ## Passos para execução do projeto:
 
